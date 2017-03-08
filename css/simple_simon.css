@@ -1,0 +1,127 @@
+/*****************************   MOBILE STYLES   ********************************/
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 60px;
+	text-align: center;
+	margin: 5%;
+}
+	.greenLetter {
+		color: green;
+	}
+	
+	.redLetter {
+		color: red;
+	}
+	
+	.yellowLetter {
+		color: yellow;
+	}
+	
+	.blueLetter {
+		color: blue;
+	}
+
+#startGameBtn, #playAgainBtn, #tryAgainBtn {
+	margin: auto;
+	margin-bottom: 2%;
+	display: block;
+	background-color: honeydew;
+	width: 80%;
+	font-family: 'Patua One', cursive;
+	font-size: 30px;
+}
+	#playAgainBtn, #tryAgainBtn {
+		display: none;
+	}
+
+main {
+	margin-left: 5%;
+}
+	.colorBox {
+		margin: 5px;
+		height: 200px;
+		width: 45%;
+		float: left;
+		font-size: 1px;
+		border-radius: 5%;
+	}
+		.colorBox:nth-child(3) {
+			clear: left;
+		}
+	
+	#greenBox {
+		background-color: green;
+		color: green;
+	}
+	
+	#redBox {
+		background-color: red;
+		color: red;
+	}
+	
+	#yellowBox {
+		background-color: yellow;
+		color: yellow;
+	}
+	
+	#blueBox {
+		background-color: blue;
+		color: blue;
+	}
+
+.alert {
+	display: none;
+}
+
+/*****************************   END OF MOBILE STYLES   ********************************/
+
+
+
+
+
+/********************************   TABLET STYLES   *************************************/
+
+@media (min-width:768px) {
+
+h1 {
+	font-size: 100px;
+}
+
+.colorBox {
+	margin: 10px;
+	height: 300px;
+}
+
+}
+/******************************   END OF TABLET STYLES   ********************************/
+
+
+
+
+
+/*******************************   DESKTOP STYLES   *************************************/
+
+@media (min-width:940px) {
+
+h1 {
+	margin: 0;
+}
+
+#startGameBtn, #playAgainBtn, #tryAgainBtn {
+	width: 50%;
+}
+
+main {
+	margin-left: 20%;
+}
+	.colorBox {
+		width: 35%;
+	}
+
+}
+/******************************  END OF DESKTOP STYLES   ********************************/
