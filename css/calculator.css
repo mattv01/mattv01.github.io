@@ -121,17 +121,13 @@ input {
 
 @media (min-width:940px) { 
 
-h1 {
-	font-size: 125px;
-}
-
 .buttons {
 	margin-left: 30%;
 }
 
 button {
-	height: 125px;
-	width: 125px;
+	height: 100px;
+	width: 100px;
 	font-size: 80px;
 }
 
