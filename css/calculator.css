@@ -25,12 +25,12 @@ button {
 	background-color: black;
 	color: white;
 	font-family: 'VT323', monospace;
-	font-size: 50px;
+	font-size: 45px;
 	border-radius: 20%;
 }
 
 button#sqrt{
-	font-size: 45px;
+	font-size: 40px;
 }
 
 .inputs {
