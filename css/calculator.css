@@ -33,10 +33,6 @@ button#sqrt{
 	font-size: 45px;
 }
 
-button:hover {
-	background-color: grey;
-}
-
 .inputs {
 	margin-left: 5%;
 }
@@ -137,6 +133,10 @@ button {
 	height: 125px;
 	width: 125px;
 	font-size: 80px;
+}
+
+button:hover {
+	background-color: grey;
 }
 
 button#sqrt{
