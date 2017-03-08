@@ -83,7 +83,7 @@ $(document).ready(function(){
 	var APPID = "7f8e3aa0aad113510e0c1eaafd1c17b8"; 
 
 	// OpenWeather API //
-	var url = "https://api.openweathermap.org/data/2.5/forecast/daily";
+	var url = "http://api.openweathermap.org/data/2.5/forecast/daily";
 
 	// Specify the default Number of Days to Forecast //
 	var numberOfDaysToForecast = 3;
@@ -125,14 +125,14 @@ $(document).ready(function(){
 
 		// if request is a success //   
 		}).done(function(data){
-			$("h2").html(data.city.name + "<img src='https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
+			$("h2").html(data.city.name + "<img src='http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
 			$("#daysForecast").html("<h4>" + data.list.length + "-Day Forecast</h4>");
 			for (var i = 0; i < data.list.length; i++) {
 				var weatherContent = ""
 				weatherContent += "<div class='days'>"
 				weatherContent += "<h5>Day " + (i+1) + "</h5>";
 				weatherContent += "<h1><span class='high'>H: " + Math.round(data.list[i].temp.max) + "˚</span>  <span class='low'>L: " + Math.round(data.list[i].temp.min) + "˚</span></h1>";
-				weatherContent += "<img src='https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
+				weatherContent += "<img src='http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
 				weatherContent += "<p><b>" + data.list[i].weather[0].main +  "</b>: " + data.list[i].weather[0].description + "</p>";
 				weatherContent += "<p><b>Humidity</b>: " + data.list[i].humidity + "%</p>";
 				weatherContent += "<p><b>Wind</b>: " + Math.round(data.list[i].speed) + " mph</p>";
@@ -199,14 +199,14 @@ $(document).ready(function(){
 
 			// if request is a success //   
 			}).done(function(data){
-				$("h2").html(data.city.name + "<img src='https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
+				$("h2").html(data.city.name + "<img src='http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
 				$("#daysForecast").html("<h4>" + data.list.length + "-Day Forecast</h4>");
 				for (var i = 0; i < data.list.length; i++) {
 					var weatherContent = ""
 					weatherContent += "<div class='days'>"
 					weatherContent += "<h5>Day " + (i+1) + "</h5>";
 					weatherContent += "<h1><span class='high'>H: " + Math.round(data.list[i].temp.max) + "˚</span>  <span class='low'>L: " + Math.round(data.list[i].temp.min) + "˚</span></h1>";
-					weatherContent += "<img src='https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
+					weatherContent += "<img src='http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
 					weatherContent += "<p><b>" + data.list[i].weather[0].main +  "</b>: " + data.list[i].weather[0].description + "</p>";
 					weatherContent += "<p><b>Humidity</b>: " + data.list[i].humidity + "%</p>";
 					weatherContent += "<p><b>Wind</b>: " + Math.round(data.list[i].speed) + " mph</p>";
@@ -248,14 +248,14 @@ $(document).ready(function(){
 
 			// if request is a success //   
 			}).done(function(data){
-				$("h2").html(data.city.name + "<img src='https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
+				$("h2").html(data.city.name + "<img src='http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
 				$("#daysForecast").html("<h4>" + data.list.length + "-Day Forecast</h4>");
 				for (var i = 0; i < data.list.length; i++) {
 					var weatherContent = ""
 					weatherContent += "<div class='days'>"
 					weatherContent += "<h5>Day " + (i+1) + "</h5>";
 					weatherContent += "<h1><span class='high'>H: " + Math.round(data.list[i].temp.max) + "˚</span>  <span class='low'>L: " + Math.round(data.list[i].temp.min) + "˚</span></h1>";
-					weatherContent += "<img src='https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
+					weatherContent += "<img src='http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
 					weatherContent += "<p><b>" + data.list[i].weather[0].main +  "</b>: " + data.list[i].weather[0].description + "</p>";
 					weatherContent += "<p><b>Humidity</b>: " + data.list[i].humidity + "%</p>";
 					weatherContent += "<p><b>Wind</b>: " + Math.round(data.list[i].speed) + " mph</p>";
@@ -311,14 +311,14 @@ $(document).ready(function(){
 
 						// if request is a success //   
 						}).done(function(data){
-							$("h2").html(data.city.name + "<img src='https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
+							$("h2").html(data.city.name + "<img src='http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png'>" );
 							$("#daysForecast").html("<h4>" + data.list.length + "-Day Forecast</h4>");
 							for (var i = 0; i < data.list.length; i++) {
 								var weatherContent = ""
 								weatherContent += "<div class='days'>"
 								weatherContent += "<h5>Day " + (i+1) + "</h5>";
 								weatherContent += "<h1><span class='high'>H: " + Math.round(data.list[i].temp.max) + "˚</span>  <span class='low'>L: " + Math.round(data.list[i].temp.min) + "˚</span></h1>";
-								weatherContent += "<img src='https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
+								weatherContent += "<img src='http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png'>";
 								weatherContent += "<p><b>" + data.list[i].weather[0].main +  "</b>: " + data.list[i].weather[0].description + "</p>";
 								weatherContent += "<p><b>Humidity</b>: " + data.list[i].humidity + "%</p>";
 								weatherContent += "<p><b>Wind</b>: " + Math.round(data.list[i].speed) + " mph</p>";
