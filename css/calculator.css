@@ -121,6 +121,12 @@ input {
 
 @media (min-width:940px) { 
 
+h1 {
+	font-size: 80px;
+	text-align: left;
+	margin-left: 30%;
+}	
+
 .buttons {
 	margin-left: 30%;
 }
