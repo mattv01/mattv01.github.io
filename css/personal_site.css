@@ -90,7 +90,7 @@ main img {
 }
 
 main p {
-	font-family: copperplate;
+	font-family: ;
 	color: black;
 }
 
@@ -101,7 +101,7 @@ main p {
 }
 
 .img-thumbnail{
-	margin-top: 50px;
+	margin-top: 10%;
 	display: block;
 }
 
