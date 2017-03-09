@@ -124,8 +124,12 @@ dd {
 	color: white;
 }
 
-.thumbnail .caption p a:hover{
+.thumbnail .caption p a{
 	color: white;
+}
+
+.thumbnail .caption p a:hover{
+	color: black;
 }
 
 h3{
