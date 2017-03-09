@@ -119,9 +119,14 @@ dd {
 	width: 100%;
 }
 
-.caption p, h3{
+.thumbnail .caption p {
 	font-family: 'Coming Soon', cursive;
 	color: white;
+}
+
+h3{
+	font-family: 'Coming Soon', cursive;
+	color: #CEE5F2;
 }
 
 a.btn.btn-primary{
