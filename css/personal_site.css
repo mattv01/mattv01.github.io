@@ -119,7 +119,7 @@ dd {
 	width: 100%;
 }
 
-.caption{
+.caption p, h3{
 	font-family: 'Coming Soon', cursive;
 	color: white;
 }
