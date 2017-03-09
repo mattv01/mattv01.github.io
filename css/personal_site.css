@@ -249,13 +249,6 @@ nav ul li {
 	width: auto;
 }
 
-nav ul li a{
-	color: #536B78; 
-	font-family: 'VT323', monospace;
-	font-size: 2em;
-	text-transform: uppercase;
-}	
-
 .nav>li>a:hover {
 	color: white;
 	background-color: #536B78;
