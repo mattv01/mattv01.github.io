@@ -151,11 +151,11 @@ a.btn.btn-primary:hover{
 }
 
 .page-footer p{
-	font-family: 'Coming Soon', cursive;
+	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	display: inline;
-	font-size: 15px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -165,6 +165,10 @@ a.btn.btn-primary:hover{
 
 .row p{
 	color: black;
+}
+
+.col-sm-6 {
+	padding-left: 28px;
 }
 
 
