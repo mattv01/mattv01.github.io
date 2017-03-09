@@ -124,6 +124,10 @@ dd {
 	color: white;
 }
 
+.thumbnail .caption p a:hover{
+	color: white;
+}
+
 h3{
 	font-family: 'Coming Soon', cursive;
 	color: #CEE5F2;
