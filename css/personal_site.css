@@ -155,7 +155,7 @@ a.btn.btn-primary:hover{
 	text-transform: uppercase;
 	font-weight: bold;
 	display: inline;
-	font-size: 10px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -167,7 +167,7 @@ a.btn.btn-primary:hover{
 	color: black;
 }
 
-.col-sm-4 {
+.col-sm-6 {
 	padding-right: 0px;
 }
 
