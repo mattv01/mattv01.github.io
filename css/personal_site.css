@@ -214,8 +214,20 @@ nav ul li {
 	padding-left: 4%;
 }
 
-.page-footer p { 
-	font-size: 2.75em;
+nav ul li a {
+	font-size: 3em;
+}
+
+.home {
+	padding-top: 22%;
+}
+
+.home img {
+	width: 50%;
+}
+
+.port {
+	padding-top: 25%;
 }
 
 .page-footer .col-sm-6 {
@@ -224,13 +236,10 @@ nav ul li {
 	margin: 0px;
 }
 
-.home {
-	padding-top: 22%;
+.page-footer p { 
+	font-size: 2.75em;
 }
 
-.port {
-	padding-top: 25%;
-}
 
 }
 /***************************************	END OF TABLET STYLES 	**********************************/
