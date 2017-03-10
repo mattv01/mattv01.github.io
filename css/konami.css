@@ -117,7 +117,7 @@ button {
 		font-style: italic;
 	}
 
-	#createdBy {
+	span#createdBy {
     	font-size: 5px;
     	padding-left: 4px;
     	display: block;
