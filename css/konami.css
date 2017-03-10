@@ -118,7 +118,9 @@ button {
 	}
 
 	#createdBy {
-		font-size: 5px;
+    	font-size: 5px;
+    	padding-left: 4px;
+    	display: block;
 	}
 
 	.select, .start {
