@@ -310,6 +310,10 @@ nav {
 	float: left;
 }
 
+.nav {
+    padding-left: 32px;
+}
+
 nav ul li {
 	width: auto;
 }
@@ -350,6 +354,9 @@ dt {
 	font-size: 120%;
 } 
 
+.port {
+    padding-top: 3%;
+}
 
 /******* BOTTOM FOOTER (NAVBAR) *******/
 footer {
