@@ -133,9 +133,17 @@ dd {
 	color: white;
 }
 
-h3{
+h3 {
 	font-family: 'Coming Soon', cursive;
 	color: #CEE5F2;
+}
+
+.caption h3 a {
+	color: #CEE5F2;
+}
+
+.caption h3 a:hover {
+	color: black;
 }
 
 a.btn.btn-primary{
