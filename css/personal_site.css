@@ -224,12 +224,12 @@ nav {
 }
 
 .navbar-header {
-	width: 30%;
+	width: 60%;
 }
 
 .matt {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 4em;
+	font-size: 6em;
 	margin: auto;
 	width: auto;
 	padding-left: 10px;
@@ -251,10 +251,19 @@ nav ul li {
 	width: auto;
 }
 
+nav ul li a {
+	margin-top: 7%;
+	font-size: 3em;
+}
+
 .nav>li>a:hover {
 	color: white;
 	background-color: #536B78;
 	width: auto;
+}
+
+.navbar-right {
+	margin-right: -50px;
 }
 
 main {
