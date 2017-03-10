@@ -209,10 +209,6 @@ nav ul li {
 
 @media (min-width:768px) {
 
-main {
-	padding-top: 18%;
-}
-
 .matt {
 	font-size: 8em;
 	padding-left: 4%;
@@ -228,6 +224,13 @@ main {
 	margin: 0px;
 }
 
+.home {
+	margin-top: 22%;
+}
+
+.port {
+	padding-top: 25%;
+}
 
 }
 /***************************************	END OF TABLET STYLES 	**********************************/
