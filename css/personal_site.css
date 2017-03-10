@@ -256,7 +256,7 @@ body {
 }
 
 .navbar-right {
-	margin-right: -50px;
+	width: 35%;
 }
 
 nav {
