@@ -328,7 +328,12 @@ main {
 	padding-bottom: 0%;	
 }
 
+
 /********* HOMEPAGE *********/
+.home {
+    padding-top: 0%;
+}
+
 .home img {
 	width: 44%;
 }
@@ -357,6 +362,7 @@ dt {
 .port {
     padding-top: 3%;
 }
+
 
 /******* BOTTOM FOOTER (NAVBAR) *******/
 footer {
