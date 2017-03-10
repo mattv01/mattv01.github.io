@@ -117,6 +117,10 @@ button {
 		font-style: italic;
 	}
 
+	#createdBy {
+		font-size: 5px;
+	}
+
 	.select, .start {
 		height: 35px;
 		background: #000;
