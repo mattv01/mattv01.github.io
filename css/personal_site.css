@@ -75,14 +75,11 @@ nav ul li {
 
 
 /************ HOMEPAGE ***********/
-.img-thumbnail{
-	margin-top: 7%;
-	display: block;
-}
-
 .home img {
 	width: 70%;
 	margin: auto;
+	margin-top: 7%;
+	display: block;
 }
 
 .home p{
