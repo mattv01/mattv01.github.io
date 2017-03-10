@@ -218,7 +218,9 @@ main {
 	padding-left: 4%;
 }
 
-
+.page-footer p { 
+	font-size: 2.75em;
+}
 
 
 }
