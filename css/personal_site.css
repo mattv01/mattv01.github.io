@@ -28,7 +28,7 @@ main {
 	}
 
 
-/**************** TOP NAVBAR ****************/
+/******************* TOP NAVBAR ******************/
 .navbar.navbar-fixed-top {
 	background-color: #ACCBE1;
 	width: 100%;
@@ -74,7 +74,7 @@ nav ul li {
 		}
 
 
-/************ HOMEPAGE ***********/
+/**************** HOMEPAGE ***************/
 .home img {
 	width: 70%;
 	margin: auto;
@@ -89,7 +89,7 @@ nav ul li {
 }
 
 
-/************** RESUME *************/
+/****************** RESUME *****************/
 .quest{
 	padding-top: 150px;
 }
@@ -102,7 +102,7 @@ nav ul li {
 		}
 
 
-/********* PORTFOLIO **********/
+/***************** PORTFOLIO ***************/
 .port h1 {
 	font-family: 'Architects Daughter', cursive;
 	color: #637081;
@@ -251,6 +251,10 @@ body {
 	padding-left: 10px;
 }
 
+.navbar-right {
+	margin-right: -50px;
+}
+
 nav {
 	padding-right:5%;
 	float: left;
@@ -265,15 +269,12 @@ nav ul li a {
 	font-size: 3em;
 }
 
-.navbar-right {
-	margin-right: -50px;
-}
-
 main {
 	padding-top: 0%;
 	padding-bottom: 0%;	
 }
 
+/********* HOMEPAGE *********/
 .home img {
 	width: 44%;
 }
@@ -282,6 +283,8 @@ main {
 	font-size: 2em;
 }
 
+
+/********* RESUME *********/
 .quest {
     padding-top: 6%;
     font-size: 1.25em;
@@ -291,6 +294,14 @@ dt {
 	font-size: 2em;
 }
 
+
+/********* PORTFOLIO *********/
+.thumbnail .caption p { 
+	font-size: 120%;
+} 
+
+
+/******* BOTTOM FOOTER (NAVBAR) *******/
 footer{
 	clear: all;
 }
@@ -302,10 +313,6 @@ footer{
 .page-footer .col-sm-6 {
 	margin: 0px;
 }
-
-.thumbnail .caption p { 
-	font-size: 120%;
-} /* project description*/
 
 
 }
