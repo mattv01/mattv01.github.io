@@ -209,9 +209,18 @@ nav ul li {
 
 @media (min-width:768px) {
 
+nav {
+	padding-left: 44px;
+	margin-bottom: 0px;
+}
+
 .matt {
 	font-size: 8em;
 	padding-left: 4%;
+}
+
+.navbar-right {
+	width: 102%;
 }
 
 nav ul li a {
