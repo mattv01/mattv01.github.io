@@ -93,10 +93,13 @@ nav ul li {
 .quest{
 	padding-top: 150px;
 }
-
-	dd {
-		padding-bottom: 30px;
+	dt {
+		font-size: 1.25em;
 	}
+
+		dd {
+			padding-bottom: 30px;
+		}
 
 
 /********* PORTFOLIO **********/
@@ -239,28 +242,13 @@ body {
 	padding-bottom: 75px;
 }
 
-.navbar.navbar-fixed-top {
-	background-color: #ACCBE1;
-}
-
 .navbar-header {
 	width: 60%;
 }
 
 .matt {
-	font-family: 'Permanent Marker', cursive;
 	font-size: 6em;
-	margin: auto;
-	width: auto;
 	padding-left: 10px;
-}
-
-.matt a {
-	color: black;
-}
-
-.matt a:hover {
-	text-decoration: none;
 }
 
 nav {
@@ -275,12 +263,6 @@ nav ul li {
 nav ul li a {
 	margin-top: 7%;
 	font-size: 3em;
-}
-
-.nav>li>a:hover {
-	color: white;
-	background-color: #536B78;
-	width: auto;
 }
 
 .navbar-right {
@@ -298,8 +280,6 @@ main {
 
 .home p{
 	font-size: 2em;
-	width: auto;
-	margin: auto;
 }
 
 .quest {
@@ -315,21 +295,12 @@ footer{
 	clear: all;
 }
 
-.navbar-fixed-bottom {
-	background-color: #ACCBE1;
-
-}
-
 .page-footer p{
 	font-size: 2.5em;
 }
 
-.pagefooter .col-sm-6 {
+.page-footer .col-sm-6 {
 	margin: 0px;
-}
-
-.img-thumbnail {
-	margin-top: 7%;
 }
 
 .thumbnail .caption p { 
