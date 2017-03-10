@@ -55,6 +55,10 @@ main {
 					text-decoration: none;
 				}
 
+.navbar-right {
+	width: 109%;
+}
+
 nav ul li {
 	width: 30%;
 }
