@@ -209,7 +209,7 @@ nav ul li {
 
 @media (min-width:768px) {
 
-nav {
+.nav {
 	padding-left: 44px;
 	margin-bottom: 0px;
 }
