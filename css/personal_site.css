@@ -31,50 +31,6 @@ i:hover {
 	color: #536B78; 
 }
 
-.navbar.navbar-fixed-top {
-	background-color: #ACCBE1;
-	width: 100%;
-}
-
-.navbar-header {
-	width: 100%;
-	float: left;
-}
-
-.matt {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 4em;
-	margin: auto;
-	width: auto;
-	padding-left: 2%;
-}
-
-.matt a {
-	color: black;
-}
-
-.matt a:hover {
-	text-decoration: none;
-}
-
-nav ul li {
-	width: 30%;
-}
-
-nav ul li a{
-	color: #536B78; 
-	font-family: 'Teko', sans-serif;
-	font-size: 2em;
-	width: auto;
-	text-transform: uppercase;
-	text-align: center;
-}	
-
-.nav>li>a:hover {
-	color: white;
-	background-color: #536B78;
-}
-
 main {
 	margin: auto;
 	padding-top: 30%;
@@ -94,6 +50,54 @@ main p {
 	color: black;
 }
 
+
+/**************** TOP NAVBAR ****************/
+.navbar.navbar-fixed-top {
+	background-color: #ACCBE1;
+	width: 100%;
+}
+
+	.navbar-header {
+		width: 100%;
+		float: left;
+	}
+	
+		.matt {
+			font-family: 'Permanent Marker', cursive;
+			font-size: 4em;
+			margin: auto;
+			width: auto;
+			padding-left: 2%;
+		}
+		
+			.matt a {
+				color: black;
+			}
+			
+				.matt a:hover {
+					text-decoration: none;
+				}
+
+nav ul li {
+	width: 30%;
+}
+
+	nav ul li a{
+		color: #536B78; 
+		font-family: 'Teko', sans-serif;
+		font-size: 2em;
+		width: auto;
+		text-transform: uppercase;
+		text-align: center;
+	}	
+	
+		.nav>li>a:hover {
+			color: white;
+			background-color: #536B78;
+		}
+
+
+/************ HOMEPAGE ***********/
 .home p{
 	padding: 5%;
 	margin: auto;
@@ -105,78 +109,83 @@ main p {
 	display: block;
 }
 
+
+/************** RESUME *************/
 .quest{
 	padding-top: 150px;
 }
 
-dd {
-	padding-bottom: 30px;
-}
+	dd {
+		padding-bottom: 30px;
+	}
 
+
+/********* PORTFOLIO **********/
 .thumbnail {
 	background-color: #536B78;
 }
-.thumbnail img {
-	width: 100%;
-}
 
-.thumbnail .caption p {
-	font-family: 'Coming Soon', cursive;
-	color: white;
-}
+	.thumbnail img {
+		width: 100%;
+	}
 
-.thumbnail .caption p a{
-	color: black;
-}
+	h3 {
+		font-family: 'Coming Soon', cursive;
+		color: #CEE5F2;
+	}
 
-.thumbnail .caption p a:hover{
-	color: white;
-}
+	.caption h3 a {
+		color: #CEE5F2;
+	}
 
-h3 {
-	font-family: 'Coming Soon', cursive;
-	color: #CEE5F2;
-}
+		.caption h3 a:hover {
+			color: black;
+		}
 
-.caption h3 a {
-	color: #CEE5F2;
-}
+	.caption p {
+		font-family: 'Coming Soon', cursive;
+		color: white;
+	}
 
-.caption h3 a:hover {
-	color: black;
-}
+		.caption p a{
+			color: black;
+		}
+		
+			.caption p a:hover{
+				color: white;
+			}
 
-a.btn.btn-primary{
-	color: black;
-	background-color: #CEE5F2;
-	border-color: black;
-}
+	a.btn.btn-primary{
+		color: black;
+		background-color: #CEE5F2;
+		border-color: black;
+	}
+	
+		a.btn.btn-primary:hover{
+			color: #ACCBE1;
+			background-color: black;
+			border-color: #ACCBE1;
+		}
 
-a.btn.btn-primary:hover{
-	color: #ACCBE1;
-	background-color: black;
-	border-color: #ACCBE1;
-}
 
-.page-footer p{
-	font-family: 'Teko', sans-serif;
-	font-weight: bold;
-	display: inline;
-	font-size: 20px;
-	text-align: center;
-}
-
+/********** BOTTOM FOOTER (NAVBAR) ************/
 .navbar-fixed-bottom {
 	background-color: #ACCBE1;
 }
 
-.row p{
-	color: black;
-}
+	.page-footer .col-sm-6 {
+		padding-left: 28px;
+	}
+	
+	.page-footer p{
+		font-family: 'Teko', sans-serif;
+		color: black;
+		font-weight: bold;
+		display: inline;
+		font-size: 20px;
+		text-align: center;
+	}
 
-.col-sm-6 {
-	padding-left: 28px;
-}
 
 /*********************************	END OF MOBILE STYLES **********************************/
 
