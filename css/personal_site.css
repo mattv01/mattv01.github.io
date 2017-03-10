@@ -63,7 +63,7 @@ nav ul li {
 	width: 30%;
 }
 
-	nav ul li a{
+	nav ul li a {
 		color: #536B78; 
 		font-family: 'Teko', sans-serif;
 		font-size: 2em;
@@ -86,7 +86,7 @@ nav ul li {
 	display: block;
 }
 
-.home p{
+.home p {
 	padding: 5%;
 	margin: auto;
 	width: auto;
@@ -94,7 +94,7 @@ nav ul li {
 
 
 /****************** RESUME *****************/
-.quest{
+.quest {
 	padding-top: 150px;
 }
 	dt {
@@ -138,21 +138,21 @@ nav ul li {
 		color: white;
 	}
 
-		.caption p a{
+		.caption p a {
 			color: black;
 		}
 		
-			.caption p a:hover{
+			.caption p a:hover {
 				color: white;
 			}
 
-	a.btn.btn-primary{
+	a.btn.btn-primary {
 		color: black;
 		background-color: #CEE5F2;
 		border-color: black;
 	}
 	
-		a.btn.btn-primary:hover{
+		a.btn.btn-primary:hover {
 			color: #ACCBE1;
 			background-color: black;
 			border-color: #ACCBE1;
@@ -168,7 +168,7 @@ nav ul li {
 		padding-left: 28px;
 	}
 
-	.page-footer p{
+	.page-footer p {
 		font-family: 'Teko', sans-serif;
 		color: black;
 		font-weight: bold;
@@ -233,6 +233,18 @@ nav ul li a {
 
 .home img {
 	width: 50%;
+}
+
+.quest {
+	padding-top: 32%;
+}
+
+dt {
+	font-size: 2.25em;
+}
+
+dd {
+	font-size: 20px;
 }
 
 .port {
@@ -317,7 +329,7 @@ main {
 	width: 44%;
 }
 
-.home p{
+.home p {
 	font-size: 2em;
 }
 
@@ -340,11 +352,11 @@ dt {
 
 
 /******* BOTTOM FOOTER (NAVBAR) *******/
-footer{
+footer {
 	clear: all;
 }
 
-.page-footer p{
+.page-footer p {
 	font-size: 2.5em;
 }
 
