@@ -270,7 +270,8 @@ nav ul li a {
 }
 
 main {
-	padding: 0%;
+	padding-top: 0%;
+	padding-bottom: 0%;	
 }
 
 .home img {
