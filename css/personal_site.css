@@ -4,15 +4,6 @@ body {
 	background-color: #CEE5F2;
 }
 
-h1 {
-	font-family: 'Architects Daughter', cursive;
-	color: #637081;
-}
-
-p {
-	color: #536B78;
-}
-
 a {
 	color:black;
 	width: 100%;
@@ -21,14 +12,6 @@ a {
 a:hover {
 	color: #536B78;
 	text-decoration: none;
-}
-i {
-	padding-left: 2%;
-	color: black;
-}
-
-i:hover {
-	color: #536B78; 
 }
 
 main {
@@ -39,16 +22,10 @@ main {
 	padding-right: 5%;	
 }
 
-main img {
-	width: 70%;
-	height: 50%;
-	margin: auto;
-}
-
-main p {
-	font-family: ;
-	color: black;
-}
+	main p {
+		font-family: ;
+		color: black;
+	}
 
 
 /**************** TOP NAVBAR ****************/
@@ -98,15 +75,20 @@ nav ul li {
 
 
 /************ HOMEPAGE ***********/
+.img-thumbnail{
+	margin-top: 7%;
+	display: block;
+}
+
+.home img {
+	width: 70%;
+	margin: auto;
+}
+
 .home p{
 	padding: 5%;
 	margin: auto;
 	width: auto;
-}
-
-.img-thumbnail{
-	margin-top: 7%;
-	display: block;
 }
 
 
@@ -121,6 +103,11 @@ nav ul li {
 
 
 /********* PORTFOLIO **********/
+.port h1 {
+	font-family: 'Architects Daughter', cursive;
+	color: #637081;
+}
+
 .thumbnail {
 	background-color: #536B78;
 }
@@ -176,7 +163,7 @@ nav ul li {
 	.page-footer .col-sm-6 {
 		padding-left: 28px;
 	}
-	
+
 	.page-footer p{
 		font-family: 'Teko', sans-serif;
 		color: black;
@@ -185,6 +172,15 @@ nav ul li {
 		font-size: 20px;
 		text-align: center;
 	}
+
+		i {
+			padding-left: 2%;
+			color: black;
+		}
+		
+			i:hover {
+				color: #536B78; 
+			}
 
 
 /*********************************	END OF MOBILE STYLES **********************************/
