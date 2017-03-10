@@ -311,6 +311,10 @@ footer{
 	margin-top: 7%;
 }
 
+.thumbnail .caption p { 
+	font-size: 120%;
+} /* project description*/
+
 
 
 }
