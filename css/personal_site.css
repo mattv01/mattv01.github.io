@@ -107,9 +107,8 @@ nav ul li {
 
 
 /***************** PORTFOLIO ***************/
-.port h1 {
-	font-family: 'Architects Daughter', cursive;
-	color: #637081;
+.port {
+	padding-top: 40%;
 }
 
 .thumbnail {
@@ -248,7 +247,7 @@ dd {
 }
 
 .port {
-	padding-top: 25%;
+	padding-top: 30%;
 }
 
 .page-footer .col-sm-6 {
@@ -360,7 +359,7 @@ dt {
 } 
 
 .port {
-	padding-top: 3%;
+	padding-top: 4%;
 }
 
 
