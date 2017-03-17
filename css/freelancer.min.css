@@ -109,6 +109,6 @@
  #skipnav a:focus{position:absolute;left:0;top:0;background:#ACCBE1;outline:0;transition:top .1s ease-in,background .5s linear}
 
 @media (min-width: 940px){
- footer .footer-col{margin-left: 34%}
+ footer .footer-col{margin-left: 33%}
  .navbar-right{font-size: 1.5em}
 }
