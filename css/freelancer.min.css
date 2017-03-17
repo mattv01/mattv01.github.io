@@ -32,6 +32,8 @@
  .text-danger {color: #a94442;font-size: 16px;}
  div#maincontent{outline:0;height:100%;}
  .footer-below a, a:hover{color:white;text-decoration: none}
+ .modal-body h2 a, h2 a:hover{color: #2C3E50;text-decoration: none}
+
 
 
  @media (min-width:768px)
@@ -100,7 +102,7 @@
  .btn-social{display:inline-block;height:50px;width:50px;border:2px solid #fff;border-radius:100%;text-align:center;font-size:20px;line-height:45px}
  .scroll-top{position:fixed;right:2%;bottom:2%;width:50px;height:50px;z-index:1049}
  .scroll-top .btn{font-size:20px;width:50px;height:50px;border-radius:100%;line-height:28px}
- .portfolio-modal .modal-content{border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;border:none;min-height:100%;padding: 3%;text-align:center}
+ .portfolio-modal .modal-content{border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;border:none;min-height:100%;padding: 3%;text-align:center;background-color:#CEE5F2;}
  .portfolio-modal .modal-content h2{margin:0;font-size:3em}
  .portfolio-modal .modal-content img{margin-bottom:30px;border:1px solid;}
  .portfolio-modal .modal-content .item-details{margin:30px 0}
