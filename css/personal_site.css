@@ -305,6 +305,10 @@ body {
 	padding-left: 10px;
 }
 
+.navbar-custom.affix .navbar-brand {
+    font-size: 3.5em;
+}
+
 .navbar-right {
 	width: 35%;
 }
