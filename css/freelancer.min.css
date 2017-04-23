@@ -121,7 +121,8 @@
 @media (min-width: 1680px){
 #portfolio {padding-bottom: 18%;}
 header {padding-bottom: 11%;}
-.container>.navbar-collapse{margin-right: -17em;margin-left: -17em;}
+.container>.navbar-collapse{margin-right: -17em;}
 hr.star-light{max-width: 29em;}
 .intro-text .name {font-size: 4.1em}
+.navbar>.container .navbar-brand{margin-left: -4em}
 }
