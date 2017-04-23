@@ -38,7 +38,7 @@
 
  @media (min-width:768px)
  {header .container{padding-bottom:21%}
- header .intro-text .name{font-size:4.75em}
+ header .intro-text .name{font-size:3.75em}
  header .intro-text .skills{font-size:1.75em}}
  .navbar-custom{background:#2C3E50;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border:none}
  .navbar-custom .navbar-brand,.navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover{color:#fff;}
@@ -115,6 +115,7 @@
  footer .footer-col{margin-left: 33%}
  .navbar-right{font-size: 1.5em}
  header .container {padding-top: 12%;padding-bottom: 5%;}
+ header img {width:20em}
 }
 
 @media (min-width: 1680px){
