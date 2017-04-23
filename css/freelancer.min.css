@@ -16,7 +16,7 @@
  .img-centered{margin:0 auto}
  header{text-align:center;background:#ACCBE1;font-size: 1.75em;}
  header .container{padding-top:20%;padding-bottom:6%}
- header img{display:block;margin:0 auto 20px}
+ header img{display:block;margin:0 auto 20px;height:10em;width:10em}
  header .intro-text .name{display:block;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:2em}
  header .intro-text .skills{font-size:1.5em;font-weight:300}
  .navbar-brand{font-family: "Permanent Marker", cursive; font-size: 35px;}
