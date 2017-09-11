@@ -83,7 +83,7 @@ h2 {
 }
 @media (min-width: 768px) {
     .home {
-        display: none;
+        display: none!important;
     }
 }
 .intro {
