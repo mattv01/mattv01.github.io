@@ -78,6 +78,14 @@ h2 {
     color: #F5F5F5;
     text-align: center;
 }
+.home {
+    display: block;
+}
+@media (min-width: 768px) {
+    .home {
+        display: none;
+    }
+}
 .intro {
     height: 86vh;
     margin-top: 25%;
