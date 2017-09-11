@@ -79,7 +79,14 @@ h2 {
     text-align: center;
 }
 .intro {
-    height: 100vh;
+    height: 86vh;
+    margin-top: 25%;
+}
+@media (min-width: 768px) {
+    .intro {
+        height: 100vh;
+        margin-top: 10%;
+    }
 }
 .introArrow {
     margin-top: 25%;
