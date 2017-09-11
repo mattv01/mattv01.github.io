@@ -1,0 +1,202 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body { 
+    color: #fff;
+}
+@media (min-width: 900px) {
+    section{
+        padding: 50px 75px;
+    }
+}
+header {
+    margin-bottom: 50px;
+}
+h1, h2, h4, .lead {
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    font-size: 40px;
+}
+.parallax-mirror {
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 100000px;
+    width: 100%;
+}
+.parallax-slider {
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: 8px;
+    left: -617px;
+    height: 1415px;
+    width: 2515px;
+    max-width: none;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+.status {
+    display: none; /* for fadeIn effect */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url('../img/mvlogo3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+.navbar-brand {
+    display: none;
+}
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-family: "Permanent Marker", cursive; 
+        font-size: 35px;
+        display: block;
+    }
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #F5F5F5;
+    text-align: center;
+}
+.intro {
+    height: 100vh;
+}
+.introArrow {
+    margin-top: 25%;
+}
+#about, #contact{
+    background-color: #F5F5F5;
+    color: #000;
+}
+.lead {
+    text-align: left;
+}
+.aboutArrow, .aboutArrow:hover, .aboutArrow:active, .aboutArrow:visited {
+    color: #000!important;
+}
+.arrow, .arrow:hover, .arrow:active, .arrow:visited {
+    font-size: 3.5em;
+    color: #fff;
+}
+.portfolioImg {
+    float: left;
+}
+@media (max-width: 768px){
+    .project {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px){
+    .project {
+        margin: 10px;
+    }
+}
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #D3D3D3;
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+.contactSubmitBtn {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+.contactSubmitBtn:hover {
+    background-color: #222222;
+    color: #fff;
+}
+#findMe {
+    color: #fff;
+    padding: 50px;
+}
+#findMe .row .social-box {
+    float: none;
+    display: inline-block;
+    margin: 30px 0;
+}
+.icon-item .icon i {
+    font-size: 50px;
+    line-height: 1.7;
+    color: #fff;
+}
+#findMe .row .social-box .it-second .icon:hover {
+    background: #49A0EC;
+}
+#findMe .row .social-box .it-third .icon:hover {
+    background: #D34836;
+}
+#findMe .row .social-box .it-fourth .icon:hover {
+    background-image: url(../img/insta.png);
+    background-size: 200px;
+}
+#findMe .row .social-box .it-fifth .icon:hover {
+    background: #272727;
+}
+#findMe .row .social-box .it-sixth .icon:hover {
+    background: #0077B5;
+}
+.icon-item .icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px !important;
+    color: #FFF;
+    border: 4px solid #FFF;
+}
+footer {
+    background-color: #272727;
+    color: #fff;
+    padding: 20px;
+}
