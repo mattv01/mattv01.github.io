@@ -150,7 +150,7 @@ h2 {
     color: #fff;
     width: 100%;
 }
-.contactSubmitBtn:hover {
+.contactSubmitBtn:hover, .contactSubmitBtn:focus {
     background-color: #222222;
     color: #fff;
 }
@@ -199,4 +199,7 @@ footer {
     background-color: #272727;
     color: #fff;
     padding: 20px;
+}
+.help-block, .text-danger {
+  color: #e80000!important;
 }
